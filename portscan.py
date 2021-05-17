@@ -6,7 +6,7 @@ from time import *
 from datatime import datetime
 
 ip = input ("Enter your IP to Start: ")
-tl = datetime.now()
+t1 = datetime.now()
 print ("Scanning Start %s Please Wait..."%ip)
 sleep(1)
 
