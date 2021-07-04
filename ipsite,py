@@ -1,0 +1,7 @@
+import socket
+import sys
+
+print('Enter Your DNS or Target: ')
+hostname = input()
+ip=socket.gethostbyname(hostname)
+print('[+]Host Name is: ',hostname, '\n' '[+]Target IP is: ',ip)
